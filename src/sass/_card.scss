@@ -3,14 +3,22 @@
     background-color: $grayLight;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    width: 100px;
+    width: 150px;
+    height: 300pxs;
     overflow: hidden;
     padding: 1.2rem;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: lighten($grayLight, 10%);
+    }
     .cardImage {
       height: 150px;
+      width: 150px;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
       img {
         width: 100%;
+        border-radius: 5px;
         height: 100%;
         object-fit: cover;
       }
@@ -19,7 +27,7 @@
       padding: 0.4rem 0;
       h3 {
         font-weight: 600;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
       }
     }
   }

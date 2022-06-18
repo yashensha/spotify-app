@@ -1,3 +1,29 @@
+@font-face {
+  font-family: "Circular-Regular";
+  src: url("./fonts/Regular.ttf");
+}
+
+@font-face {
+  font-family: "Circular-Book";
+  src: url("./fonts/Book.ttf");
+}
+
+@font-face {
+  font-family: "Circular-Bold";
+  src: url("./fonts/Bold.ttf");
+}
+
+@font-face {
+  font-family: "Circular-Strong";
+  src: url("./fonts/Strong.ttf");
+}
+
+//   Fonts
+$regular: Circular-Regular;
+$Bold: Circular-Bold;
+$Book: Circular-Book;
+$Strong: Circular-Strong;
+
 // Colors
 $black: #000000;
 $grayDark: #040404;

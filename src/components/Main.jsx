@@ -1,5 +1,5 @@
 import React from "react";
-import Repeat from "../images/repeat.jpg";
+import RepeatImg from "./images/repeat.jpg";
 
 const Main = () => {
   return (
@@ -10,7 +10,7 @@ const Main = () => {
         <div className="cardWrap">
           <div className="card">
             <div className="cardImage">
-              <img src="{Repeat}" alt="Repeat" />
+              <img src={RepeatImg} alt="Repeat" />
             </div>
             <div className="cardContent">
               <h3>Repeat</h3>
