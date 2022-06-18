@@ -1,0 +1,36 @@
+@import "config";
+
+.App {
+  height: calc(100vh - 90px);
+  background-color: $gray;
+}
+
+.navBar {
+  width: 200px;
+  height: 100%;
+  background-color: $grayDark;
+}
+.logo {
+  padding: 1.5rem 3rem;
+  svg {
+    max-width: 130px;
+    p {
+      fill: white;
+    }
+  }
+}
+.outerWrap {
+  height: 100vh;
+  min-height: 100%;
+  background-color: $grayDark;
+}
+
+.musicControls {
+  background-color: $grayLight;
+  text-align: center;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
