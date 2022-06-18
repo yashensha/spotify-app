@@ -1,0 +1,19 @@
+.upperNav {
+  background-color: $grayNav;
+  width: 100%;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 2rem;
+}
+.main {
+  width: 100%;
+}
+
+.mainContent {
+  color: white;
+  padding: 1.5rem 2rem;
+  h1 {
+    font-size: 1.8rem;
+  }
+}
